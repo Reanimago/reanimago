@@ -2,7 +2,7 @@ import { updateCategory } from '@wordpress/blocks';
 
 updateCategory( 'wpzoom-blocks', {
 	icon: (
-		<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+		<svg width="24" height="24" xmlns="https://www.w3.org/2000/svg">
 			<path
 				fill="#08618a"
 				d="m13.66481,9.79698l-0.75323,0l0,2.36856c0.15993,0.00928 0.30065,0.02011 0.76443,

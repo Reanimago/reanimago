@@ -1,6 +1,6 @@
 /*!
  * headroom.js v0.12.0 - Give your page some headroom. Hide your header until you need it
- * Copyright (c) 2020 Nick Williams - http://wicky.nillia.ms/headroom.js
+ * Copyright (c) 2020 Nick Williams - https://wicky.nillia.ms/headroom.js
  * License: MIT
  */
 
@@ -66,7 +66,7 @@
 
     return {
       /**
-       * @see http://james.padolsey.com/javascript/get-document-height-cross-browser/
+       * @see https://james.padolsey.com/javascript/get-document-height-cross-browser/
        * @return {Number} the scroll height of the document in pixels
        */
       scrollHeight: function() {
@@ -81,7 +81,7 @@
       },
 
       /**
-       * @see http://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript
+       * @see https://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript
        * @return {Number} the height of the viewport in pixels
        */
       height: function() {

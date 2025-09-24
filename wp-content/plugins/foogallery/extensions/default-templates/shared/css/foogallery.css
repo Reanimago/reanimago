@@ -3547,7 +3547,7 @@ html.fg-panel-no-scroll body {
 /* Colorize */
 .fg-panel.fg-hover-colorize .fg-panel-thumb-image {
     /* Firefox 10+, Firefox on Android */
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0\'/></filter></svg>#grayscale");
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'https://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0\'/></filter></svg>#grayscale");
     /* IE 6-9 */
     filter: gray;
     /* Chrome 19+, Safari 6+, Safari 6+ iOS */
@@ -3568,7 +3568,7 @@ html.fg-panel-no-scroll body {
 }
 .fg-panel.fg-hover-grayscale .fg-panel-thumb:hover .fg-panel-thumb-image {
     /* Firefox 10+, Firefox on Android */
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0\'/></filter></svg>#grayscale");
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'https://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0\'/></filter></svg>#grayscale");
     /* IE 6-9 */
     filter: gray;
     /* Chrome 19+, Safari 6+, Safari 6+ iOS */

@@ -28,7 +28,7 @@
 
 /*! @elementor/editor-ui */
 
-/*! @elementor/http-client */
+/*! @elementor/https-client */
 
 /*! @elementor/icons */
 

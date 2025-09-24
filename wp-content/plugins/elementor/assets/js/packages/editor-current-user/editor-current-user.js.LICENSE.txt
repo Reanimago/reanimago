@@ -16,7 +16,7 @@
 
 /*! @elementor/editor-v1-adapters */
 
-/*! @elementor/http-client */
+/*! @elementor/https-client */
 
 /*! @elementor/query */
 

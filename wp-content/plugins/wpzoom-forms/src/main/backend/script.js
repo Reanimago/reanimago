@@ -101,7 +101,7 @@ const insertFormField = (blockName, defaultAttributes, isDisabled, isPro) => {
 
 updateCategory('wpzoom-forms', {
 	icon: (
-		<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="https://www.w3.org/2000/svg">
 			<path d="M0 2C0 0.895431 0.895431 0 2 0H14C15.1046 0 16 0.895431 16 2V14C16 15.1046 15.1046 16 14 16H2C0.895431 16 0 15.1046 0 14V2Z" fill="#164777" />
 			<path d="M5.276 12.084H6.032L8.156 7.224L10.268 12.084H11.024L13.148 5.316H13.988V4.104H10.628V5.316H11.708L10.508 9.468L8.552 4.872H7.832L5.876 9.468L4.592 5.316H5.636V4.104H2.276V5.316H3.116L5.276 12.084Z" fill="white" />
 		</svg>
@@ -528,7 +528,7 @@ registerPlugin('wpzoom-forms-document-settings', {
 					isPrimary
 					disabled={true}
 					icon={
-						<svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<svg width="20" height="20" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
 							<path d="M21.3 10.8l-8.8-8.8c-.4-.4-.9-.6-1.4-.6H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6c0-.5-.2-1-.7-1.4zM12 19H5V5h5v4h4v1l-4.4 4.4c-.1.1-.2.3-.2.4v3.5H12v-1.5L18.5 10H14V5.5l1.5 1.5H19v7.8L12 21v-2z" />
 						</svg>
 					}
@@ -833,7 +833,7 @@ const SortableList = SortableContainer(({ items, changeCallback, removeCallback 
 registerBlockType('wpzoom-forms/form', {
 	title: __('Contact Form', 'wpzoom-blocks'),
 	description: __('Add a simple contact form', 'wpzoom-blocks'),
-	icon: (<svg width="40" height="40" viewBox="0 0 250 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+	icon: (<svg width="40" height="40" viewBox="0 0 250 300" fill="none" xmlns="https://www.w3.org/2000/svg">
 		<path fill-rule="evenodd" clip-rule="evenodd" d="M250 0H50V50H0V300H250V0Z" fill="#083EA7" />
 		<path fill-rule="evenodd" clip-rule="evenodd" d="M100 50H200V100H100V50ZM100 150V100H50V250H100V200H150V150H100Z" fill="#1FDE91" />
 	</svg>),

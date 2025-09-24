@@ -94,7 +94,7 @@
 
 	/*
 	 * Test if background-attachment: fixed is supported.
-	 * @link http://stackoverflow.com/questions/14115080/detect-support-for-background-attachment-fixed
+	 * @link https://stackoverflow.com/questions/14115080/detect-support-for-background-attachment-fixed
 	 */
 	function supportsFixedBackground() {
 		const el = document.createElement( 'div' );

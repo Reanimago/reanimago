@@ -345,7 +345,7 @@
     return this
   }
 
-  // HTTP methods whose capitalization should be normalized
+  // https methods whose capitalization should be normalized
   var methods = ['CONNECT', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'PATCH', 'POST', 'PUT', 'TRACE'];
 
   function normalizeMethod(method) {

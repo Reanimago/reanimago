@@ -420,7 +420,7 @@
 
 /*! @elementor/env */
 
-/*! @elementor/http-client */
+/*! @elementor/https-client */
 
 /*! @elementor/icons */
 

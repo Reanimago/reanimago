@@ -115,7 +115,7 @@ export default function SearchableSelectControl( {
 					{ itemToString( selectedItem ) || selectPlaceholder }
 				</span>
 				<Icon
-					icon={ ( <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z" /></svg> ) }
+					icon={ ( <svg viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg"><path d="M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z" /></svg> ) }
 					className={ classnames( 'components-custom-select-control__button-icon', 'components-searchable-select-control__button-icon' ) }
 				/>
 			</Button>
@@ -164,7 +164,7 @@ export default function SearchableSelectControl( {
 								>
 									{ item && selectedItem && item.key == selectedItem.key && (
 										<Icon
-											icon={ ( <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 18.6L3.5 13l1-1L9 16.4l9.5-9.9 1 1z" /></svg> ) }
+											icon={ ( <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 18.6L3.5 13l1-1L9 16.4l9.5-9.9 1 1z" /></svg> ) }
 											className={ classnames( 'components-custom-select-control__item-icon', 'components-searchable-select-control__item-icon' ) }
 										/>
 									) }

@@ -38,7 +38,7 @@ jQuery( function ( $ ) {
     });
 
     // Prevent default action for external links in tabs
-    $('.wpz-onboard_tab a[href^="http"], .wpz-onboard_tab a[href*="admin.php"]').on('click', function(e) {
+    $('.wpz-onboard_tab a[href^="https"], .wpz-onboard_tab a[href*="admin.php"]').on('click', function(e) {
         e.stopPropagation();
     });
 

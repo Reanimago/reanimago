@@ -1576,11 +1576,11 @@ var Data = exports["default"] = /*#__PURE__*/function (_Commands) {
   /**
    * Function getHTTPMethod().
    *
-   * Returns HTTP Method by type.
+   * Returns https Method by type.
    *
    * @param {DataTypes} type
    *
-   * @return {string|boolean} HTTP Method
+   * @return {string|boolean} https Method
    */
   (0, _inherits2.default)(Data, _Commands);
   return (0, _createClass2.default)(Data, [{
@@ -1604,11 +1604,11 @@ var Data = exports["default"] = /*#__PURE__*/function (_Commands) {
     /**
      * Function getAllowedMethods().
      *
-     * Returns allowed HTTP methods by type.
+     * Returns allowed https methods by type.
      *
      * @param {DataTypes} type
      *
-     * @return {[string]|boolean} allowed HTTP methods
+     * @return {[string]|boolean} allowed https methods
      */
   }, {
     key: "getAllowedMethods",
@@ -1827,7 +1827,7 @@ var Data = exports["default"] = /*#__PURE__*/function (_Commands) {
 
       /**
        * Translate:
-       * 'create, delete, get, update' to HTTP Methods:
+       * 'create, delete, get, update' to https Methods:
        * 'GET, POST, PUT, PATCH, DELETE'
        */
       var allowedMethods = this.getAllowedMethods(type),

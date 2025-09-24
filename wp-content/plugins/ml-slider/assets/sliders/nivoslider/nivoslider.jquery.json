@@ -4,7 +4,7 @@
   "title": "Nivo Slider",
   "author": {
     "name": "Gilbert Pellegrom",
-    "url": "http://gilbert.pellegrom.me/"
+    "url": "https://gilbert.pellegrom.me/"
   },
   "licenses": [
     {
@@ -21,9 +21,9 @@
     "animation",
     "effect"
   ],
-  "homepage": "http://nivo.dev7studios.com/",
-  "docs": "http://nivo.dev7studios.com/support",
-  "demo": "http://nivo.dev7studios.com/demos",
-  "download": "http://nivo.dev7studios.com/pricing",
+  "homepage": "https://nivo.dev7studios.com/",
+  "docs": "https://nivo.dev7studios.com/support",
+  "demo": "https://nivo.dev7studios.com/demos",
+  "download": "https://nivo.dev7studios.com/pricing",
   "bugs": "https://github.com/gilbitron/Nivo-Slider/issues"
 }
