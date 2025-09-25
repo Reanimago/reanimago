@@ -90,7 +90,7 @@ const external_ReactJSXRuntime_namespaceObject = window["ReactJSXRuntime"];
 
 
 const check = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z"
@@ -563,7 +563,7 @@ function Icon({
 
 
 const chevronLeft = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M14.6 7l-1.2-1L8 12l5.4 6 1.2-1-4.6-5z"
@@ -578,7 +578,7 @@ const chevronLeft = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx
 
 
 const chevronRight = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M10.6 6L9.4 7l4.6 5-4.6 5 1.2 1 5.4-6z"

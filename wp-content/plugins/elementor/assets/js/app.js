@@ -3531,7 +3531,7 @@ var Button = exports["default"] = /*#__PURE__*/function (_React$Component) {
       }
       var buttonContent = /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, this.getIcon(), this.getText());
       if (this.props.url) {
-        if (0 === this.props.url.indexOf('https')) {
+        if (0 === this.props.url.indexOf('http')) {
           return /*#__PURE__*/_react.default.createElement("a", (0, _extends2.default)({
             href: this.props.url,
             target: this.props.target
@@ -3635,7 +3635,7 @@ function InlineLink(props) {
   if (!props.url) {
     return getActionLink();
   }
-  return props.url.includes('https') ? getExternalLink() : getRouterLink();
+  return props.url.includes('http') ? getExternalLink() : getRouterLink();
 }
 InlineLink.propTypes = {
   className: PropTypes.string,
@@ -5498,7 +5498,7 @@ var useExportKit = exports.useExportKit = function useExportKit(_ref) {
             _context.next = 5;
             break;
           }
-          errorMessage = (result === null || result === void 0 || (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.message) || "https error! with the following code: ".concat(result === null || result === void 0 || (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.code);
+          errorMessage = (result === null || result === void 0 || (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.message) || "HTTP error! with the following code: ".concat(result === null || result === void 0 || (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.code);
           throw new Error(errorMessage);
         case 5:
           isExportLocal = 'file' === kitInfo.source && result.data && result.data.file;
@@ -6764,7 +6764,7 @@ function _request() {
             _context3.next = 3;
             break;
           }
-          errorMessage = (result === null || result === void 0 || (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.message) || "https error! with the following code: ".concat(result === null || result === void 0 || (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.code);
+          errorMessage = (result === null || result === void 0 || (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.message) || "HTTP error! with the following code: ".concat(result === null || result === void 0 || (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.code);
           throw new Error(errorMessage);
         case 3:
           return _context3.abrupt("return", result);
@@ -7020,7 +7020,7 @@ function useUploadKit() {
               _context.next = 3;
               break;
             }
-            errorMessage = (result === null || result === void 0 || (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.message) || "https error! with the following code: ".concat(result === null || result === void 0 || (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.code);
+            errorMessage = (result === null || result === void 0 || (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.message) || "HTTP error! with the following code: ".concat(result === null || result === void 0 || (_result$data2 = result.data) === null || _result$data2 === void 0 ? void 0 : _result$data2.code);
             throw new Error(errorMessage);
           case 3:
             if (data.file) {
@@ -9904,7 +9904,7 @@ function ReExportBanner() {
   }), /*#__PURE__*/_react.default.createElement(_ui.Typography, {
     variant: "body2"
   }, __('This website template was exported from an older version of Elementor. If possible, re-export it with the latest version for better capabilities.', 'elementor'))), /*#__PURE__*/_react.default.createElement(_ui.Link, {
-    href: "https://go.elementor.com/app-import-export-errors-old-kits",
+    href: "http://go.elementor.com/app-import-export-errors-old-kits",
     variant: "body2",
     color: "info.light",
     underline: "hover",
@@ -10280,7 +10280,7 @@ function useKitPlugins(_ref) {
             _context.next = 4;
             break;
           }
-          errorMessage = (result === null || result === void 0 ? void 0 : result.message) || "https error! Status: ".concat(response.status);
+          errorMessage = (result === null || result === void 0 ? void 0 : result.message) || "HTTP error! Status: ".concat(response.status);
           throw new Error(errorMessage);
         case 4:
           if (Array.isArray(result)) {
@@ -16386,7 +16386,7 @@ exports["default"] = isValidRedirectUrl;
 function isValidRedirectUrl(url) {
   try {
     var parsedUrl = new URL(url);
-    return parsedUrl.hostname === window.location.hostname && ('https:' === parsedUrl.protocol || 'https:' === parsedUrl.protocol);
+    return parsedUrl.hostname === window.location.hostname && ('http:' === parsedUrl.protocol || 'https:' === parsedUrl.protocol);
   } catch (e) {
     return false;
   }
@@ -20519,7 +20519,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at https://fb.me/use-check-prop-types'
+            'Read more at http://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -20965,7 +20965,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // https://fb.me/prop-types-in-prod
+  // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else // removed by dead control flow
@@ -28143,7 +28143,7 @@ module.exports = ReactDOM;
 /******/ 				var scripts = document.getElementsByTagName("script");
 /******/ 				if(scripts.length) {
 /******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^https(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
 /******/ 				}
 /******/ 			}
 /******/ 		}

@@ -163,7 +163,7 @@
                     }
 
                     var uri = new URI(newValue);
-                    uri = uri.is('absolute') ? uri : new URI({'hostname': newValue, 'protocol': 'https'});
+                    uri = uri.is('absolute') ? uri : new URI({'hostname': newValue, 'protocol': 'http'});
                     var icon = this.$options.filters.filterUrlScheme(uri);
                     var that = this;
                     var filtered = {};

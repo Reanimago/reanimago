@@ -9397,7 +9397,7 @@ function slimDOMExcluded(sn, slimDOMOptions) {
                 return true;
             } else if (slimDOMOptions.headMetaRobots && (lowerIfExists(sn.attributes.name) === "robots" || lowerIfExists(sn.attributes.name) === "googlebot" || lowerIfExists(sn.attributes.name) === "bingbot")) {
                 return true;
-            } else if (slimDOMOptions.headMetaHttpEquiv && sn.attributes["https-equiv"] !== void 0) {
+            } else if (slimDOMOptions.headMetaHttpEquiv && sn.attributes["http-equiv"] !== void 0) {
                 return true;
             } else if (slimDOMOptions.headMetaAuthorship && (lowerIfExists(sn.attributes.name) === "author" || lowerIfExists(sn.attributes.name) === "generator" || lowerIfExists(sn.attributes.name) === "framework" || lowerIfExists(sn.attributes.name) === "publisher" || lowerIfExists(sn.attributes.name) === "progid" || lowerIfExists(sn.attributes.property).match(/^article:/) || lowerIfExists(sn.attributes.property).match(/^product:/))) {
                 return true;
@@ -22250,7 +22250,7 @@ _.isArray = nativeIsArray || function(obj) {
     return toString.call(obj) === '[object Array]';
 };
 
-// from a comment on https://dbj.org/dbj/?p=286
+// from a comment on http://dbj.org/dbj/?p=286
 // fails on only one very rare and deliberate custom object:
 // var bomb = { toString : undefined, valueOf: function(o) { return "function BOMBA!"; }};
 _.isFunction = function(f) {
@@ -23169,7 +23169,7 @@ _.register_event = (function() {
     // with input from Tino Zijdel - crisp@xs4all.nl
     // with input from Carl Sverre - mail@carlsverre.com
     // with input from Mixpanel
-    // https://dean.edwards.name/weblog/2005/10/add-event/
+    // http://dean.edwards.name/weblog/2005/10/add-event/
     // https://gist.github.com/1930440
 
     /**
@@ -23258,7 +23258,7 @@ _.dom_query = (function() {
     contained inside the 'div' element which has id="main"
 
     New in version 0.4: Support for CSS2 and CSS3 attribute selectors:
-    See https://www.w3.org/TR/css3-selectors/#attribute-selectors
+    See http://www.w3.org/TR/css3-selectors/#attribute-selectors
 
     Version 0.4 - Simon Willison, March 25th 2003
     -- Works in Phoenix 0.5, Mozilla 1.3, Opera 7, Internet Explorer 6, Internet Explorer 5 on Windows
@@ -23563,7 +23563,7 @@ _.info = {
     /**
      * This function detects which browser version is running this script,
      * parsing major and minor version (e.g., 42.1). User agent strings from:
-     * https://www.useragentstring.com/pages/useragentstring.php
+     * http://www.useragentstring.com/pages/useragentstring.php
      */
     browserVersion: function(userAgent, vendor, opera) {
         var browser = _.info.browser(userAgent, vendor, opera);
@@ -24214,7 +24214,7 @@ var logger$6 = console_with_prefix('lock');
  * window/tab at a time will be able to access shared resources.
  *
  * Based on the Alur and Taubenfeld fast lock
- * (https://www.cs.rochester.edu/research/synchronization/pseudocode/fastlock.html)
+ * (http://www.cs.rochester.edu/research/synchronization/pseudocode/fastlock.html)
  * with an added timeout to ensure there will be eventual progress in the event
  * that a window is closed in the middle of the callback.
  *
@@ -25902,7 +25902,7 @@ function getPropsForDOMEvent(ev, config) {
     var props = null;
 
     var target = typeof ev.target === 'undefined' ? ev.srcElement : ev.target;
-    if (isTextNode(target)) { // defeat Safari bug (see: https://www.quirksmode.org/js/events_properties.html)
+    if (isTextNode(target)) { // defeat Safari bug (see: http://www.quirksmode.org/js/events_properties.html)
         target = target.parentNode;
     }
 
@@ -28162,10 +28162,10 @@ MixpanelPersistence.prototype.remove_event_timer = function(event_name) {
  * Mixpanel JS Library
  *
  * Copyright 2012, Mixpanel, Inc. All Rights Reserved
- * https://mixpanel.com/
+ * http://mixpanel.com/
  *
  * Includes portions of Underscore.js
- * https://documentcloud.github.com/underscore/
+ * http://documentcloud.github.com/underscore/
  * (c) 2011 Jeremy Ashkenas, DocumentCloud Inc.
  * Released under the MIT License.
  */
@@ -28202,7 +28202,7 @@ var IDENTITY_FUNC = function(x) {return x;};
 /*
  * Dynamic... constants? Is that an oxymoron?
  */
-// https://hacks.mozilla.org/2009/07/cross-site-xmlhttprequest-with-cors/
+// http://hacks.mozilla.org/2009/07/cross-site-xmlhttprequest-with-cors/
 // https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest#withCredentials
 var USE_XHR = (win.XMLHttpRequest && 'withCredentials' in new XMLHttpRequest());
 
@@ -28809,7 +28809,7 @@ MixpanelLib.prototype._send_request = function(url, data, options, callback) {
             // Verbose output (from verbose mode, or an error in test mode) is a json blob,
             // which by itself is not valid javascript. Without a callback, this verbose output will
             // cause an error when returned via jsonp, so we force a no-op callback param.
-            // See the ECMA script spec: https://www.ecma-international.org/ecma-262/5.1/#sec-12.4
+            // See the ECMA script spec: http://www.ecma-international.org/ecma-262/5.1/#sec-12.4
             data['callback'] = '(function(){})';
         }
     }
@@ -28896,7 +28896,7 @@ MixpanelLib.prototype._send_request = function(url, data, options, callback) {
                         ) {
                             error = 'timeout';
                         } else {
-                            error = 'Bad https status: ' + req.status + ' ' + req.statusText;
+                            error = 'Bad HTTP status: ' + req.status + ' ' + req.statusText;
                         }
                         lib.report_error(error);
                         if (callback) {
@@ -29862,7 +29862,7 @@ MixpanelLib.prototype.name_tag = function(name_tag) {
  *         groups: 'groups/',
  *       }
  *
- *       // https method for tracking requests
+ *       // HTTP method for tracking requests
  *       api_method: 'POST'
  *
  *       // transport for sending requests ('XHR' or 'sendBeacon')
@@ -29968,7 +29968,7 @@ MixpanelLib.prototype.name_tag = function(name_tag) {
  *       // so make sure you set it when you create the library.
  *       upgrade: false
  *
- *       // extra https request headers to set for each API request, in
+ *       // extra HTTP request headers to set for each API request, in
  *       // the format {'Header-Name': value}
  *       xhr_headers: {}
  *

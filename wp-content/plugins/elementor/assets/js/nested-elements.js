@@ -323,7 +323,7 @@ module.exports = React;
 /******/ 				var scripts = document.getElementsByTagName("script");
 /******/ 				if(scripts.length) {
 /******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^https(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
 /******/ 				}
 /******/ 			}
 /******/ 		}

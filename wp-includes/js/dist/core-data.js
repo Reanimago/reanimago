@@ -3168,7 +3168,7 @@ function getUserPermissionCacheKey(action, resource, id) {
 // See https://github.com/WordPress/gutenberg/pull/40025#discussion_r865410589 for more context.
 
 /**
- * https Query parameters sent with the API request to fetch the entity records.
+ * HTTP Query parameters sent with the API request to fetch the entity records.
  */
 
 /**
@@ -5904,7 +5904,7 @@ function tokenize(text) {
 
 /**
  * A simple in-memory cache for requests.
- * This avoids repeat https requests which may be beneficial
+ * This avoids repeat HTTP requests which may be beneficial
  * for those wishing to preserve low-bandwidth.
  */
 const CACHE = new Map();
@@ -5945,11 +5945,11 @@ const fetchUrlData = async (url, options = {}) => {
     return Promise.reject(`${url} is not a valid URL.`);
   }
 
-  // Test for "https" based URL as it is possible for valid
+  // Test for "http" based URL as it is possible for valid
   // yet unusable URLs such as `tel:123456` to be passed.
   const protocol = (0,external_wp_url_namespaceObject.getProtocol)(url);
-  if (!protocol || !(0,external_wp_url_namespaceObject.isValidProtocol)(protocol) || !protocol.startsWith('https') || !/^https?:\/\/[^\/\s]/i.test(url)) {
-    return Promise.reject(`${url} does not have a valid protocol. URLs must be "https" based`);
+  if (!protocol || !(0,external_wp_url_namespaceObject.isValidProtocol)(protocol) || !protocol.startsWith('http') || !/^https?:\/\/[^\/\s]/i.test(url)) {
+    return Promise.reject(`${url} does not have a valid protocol. URLs must be "http" based`);
   }
   if (CACHE.has(url)) {
     return CACHE.get(url);
@@ -7600,7 +7600,7 @@ const EMPTY_ARRAY = [];
  *
  * @param    kind      Kind of the entity, e.g. `root` or a `postType`. See rootEntitiesConfig in ../entities.ts for a list of available kinds.
  * @param    name      Name of the entity, e.g. `plugin` or a `post`. See rootEntitiesConfig in ../entities.ts for a list of available names.
- * @param    queryArgs Optional https query description for how to fetch the data, passed to the requested API endpoint.
+ * @param    queryArgs Optional HTTP query description for how to fetch the data, passed to the requested API endpoint.
  * @param    options   Optional hook options.
  * @example
  * ```js

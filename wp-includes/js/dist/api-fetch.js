@@ -337,9 +337,9 @@ const fetchAllMiddleware = async (options, next) => {
 };
 /* harmony default export */ const fetch_all_middleware = (fetchAllMiddleware);
 
-;// ./node_modules/@wordpress/api-fetch/build-module/middlewares/https-v1.js
+;// ./node_modules/@wordpress/api-fetch/build-module/middlewares/http-v1.js
 /**
- * Set of https methods which are eligible to be overridden.
+ * Set of HTTP methods which are eligible to be overridden.
  *
  * @type {Set<string>}
  */
@@ -358,8 +358,8 @@ const OVERRIDE_METHODS = new Set(['PATCH', 'PUT', 'DELETE']);
 const DEFAULT_METHOD = 'GET';
 
 /**
- * API Fetch middleware which overrides the request method for https v1
- * compatibility leveraging the REST API X-https-Method-Override header.
+ * API Fetch middleware which overrides the request method for HTTP v1
+ * compatibility leveraging the REST API X-HTTP-Method-Override header.
  *
  * @type {import('../types').APIFetchMiddleware}
  */
@@ -372,7 +372,7 @@ const httpV1Middleware = (options, next) => {
       ...options,
       headers: {
         ...options.headers,
-        'X-https-Method-Override': method,
+        'X-HTTP-Method-Override': method,
         'Content-Type': 'application/json'
       },
       method: 'POST'

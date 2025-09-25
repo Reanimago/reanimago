@@ -274,7 +274,7 @@ module.exports = function() {
     var err = new Error(
       'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
       'Use PropTypes.checkPropTypes() to call them. ' +
-      'Read more at https://fb.me/use-check-prop-types'
+      'Read more at http://fb.me/use-check-prop-types'
     );
     err.name = 'Invariant Violation';
     throw err;
@@ -366,7 +366,7 @@ exports.A = TextareaAutosize_1.TextareaAutosize;
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	autosize 4.0.4
 	license: MIT
-	https://www.jacklmoore.com/autosize
+	http://www.jacklmoore.com/autosize
 */
 (function (global, factory) {
 	if (true) {
@@ -849,7 +849,7 @@ module.exports = function equal(a, b) {
 
 if (false) { var throwOnDirectAccess, ReactIs; } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
-  // https://fb.me/prop-types-in-prod
+  // http://fb.me/prop-types-in-prod
   module.exports = __webpack_require__(628)();
 }
 
@@ -2464,7 +2464,7 @@ const external_ReactJSXRuntime_namespaceObject = window["ReactJSXRuntime"];
 
 
 const header = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M18.5 10.5H10v8h8a.5.5 0 00.5-.5v-7.5zm-10 0h-3V18a.5.5 0 00.5.5h2.5v-8zM6 4h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2z"
@@ -2479,7 +2479,7 @@ const header = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 
 
 const footer = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -2495,7 +2495,7 @@ const footer = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 
 
 const sidebar = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M18 5.5H6a.5.5 0 00-.5.5v3h13V6a.5.5 0 00-.5-.5zm.5 5H10v8h8a.5.5 0 00.5-.5v-7.5zM6 4h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2z"
@@ -2510,7 +2510,7 @@ const sidebar = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ex
 
 
 const symbolFilled = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M21.3 10.8l-5.6-5.6c-.7-.7-1.8-.7-2.5 0l-5.6 5.6c-.7.7-.7 1.8 0 2.5l5.6 5.6c.3.3.8.5 1.2.5s.9-.2 1.2-.5l5.6-5.6c.8-.7.8-1.9.1-2.5zm-17.6 1L10 5.5l-1-1-6.3 6.3c-.7.7-.7 1.8 0 2.5L9 19.5l1.1-1.1-6.3-6.3c-.2 0-.2-.2-.1-.3z"
@@ -2560,7 +2560,7 @@ const {
 
 
 const layout = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M18 5.5H6a.5.5 0 00-.5.5v3h13V6a.5.5 0 00-.5-.5zm.5 5H10v8h8a.5.5 0 00.5-.5v-7.5zm-10 0h-3V18a.5.5 0 00.5.5h2.5v-8zM6 4h12a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2z"
@@ -5444,7 +5444,7 @@ function isTemplateRevertable(templateOrTemplatePart) {
 
 
 const external = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M19.5 4.5h-7V6h4.44l-5.97 5.97 1.06 1.06L18 7.06v4.44h1.5v-7Zm-13 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3H17v3a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h3V5.5h-3Z"
@@ -5544,7 +5544,7 @@ const external_wp_components_namespaceObject = window["wp"]["components"];
 
 
 const check = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z"
@@ -7217,7 +7217,7 @@ function FormRegularField({
 
 
 const closeSmall = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M12 13.06l3.712 3.713 1.061-1.06L13.061 12l3.712-3.712-1.06-1.06L12 10.938 8.288 7.227l-1.061 1.06L10.939 12l-3.712 3.712 1.06 1.061L12 13.061z"
@@ -7722,7 +7722,7 @@ const external_wp_blob_namespaceObject = window["wp"]["blob"];
 
 
 const download = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M18 11.3l-1-1.1-4 4V3h-1.5v11.3L7 10.2l-1 1.1 6.2 5.8 5.8-5.8zm.5 3.7v3.5h-13V15H4v5h16v-5h-1.5z"
@@ -7793,7 +7793,7 @@ const exportPattern = {
 
 
 const backup = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M5.5 12h1.75l-2.5 3-2.5-3H4a8 8 0 113.134 6.35l.907-1.194A6.5 6.5 0 105.5 12zm9.53 1.97l-2.28-2.28V8.5a.75.75 0 00-1.5 0V12a.747.747 0 00.218.529l1.282-.84-1.28.842 2.5 2.5a.75.75 0 101.06-1.061z"
@@ -8119,7 +8119,7 @@ const resetPostAction = {
 
 
 const trash = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -8684,7 +8684,7 @@ const external_wp_mediaUtils_namespaceObject = window["wp"]["mediaUtils"];
 
 
 const lineSolid = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M5 11.25h14v1.5H5z"
@@ -8867,7 +8867,7 @@ function clsx_r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;e
 
 
 const commentAuthorAvatar = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -8979,7 +8979,7 @@ const authorField = {
 
 
 const drafts = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -8996,7 +8996,7 @@ const drafts = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 
 
 const scheduled = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -9013,7 +9013,7 @@ const scheduled = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(
 
 
 const pending = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -9030,7 +9030,7 @@ const pending = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ex
 
 
 const notAllowed = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -9047,7 +9047,7 @@ const notAllowed = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)
 
 
 const published = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -9259,7 +9259,7 @@ const dateField = {
 
 
 const copySmall = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -10251,7 +10251,7 @@ function Icon({
 
 const lockSmall = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
     clipRule: "evenodd",
@@ -11497,7 +11497,7 @@ function useHideBlocksFromInserter(postType, mode) {
 
 
 const keyboard = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "m16 15.5h-8v-1.5h8zm-7.5-2.5h-2v-2h2zm3 0h-2v-2h2zm3 0h-2v-2h2zm3 0h-2v-2h2zm-9-3h-2v-2h2zm3 0h-2v-2h2zm3 0h-2v-2h2zm3 0h-2v-2h2z"
@@ -11515,7 +11515,7 @@ const keyboard = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(
 
 const listView = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M3 6h11v1.5H3V6Zm3.5 5.5h11V13h-11v-1.5ZM21 17H10v1.5h11V17Z"
   })
@@ -11530,7 +11530,7 @@ const listView = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(e
 
 const code = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M20.8 10.7l-4.3-4.3-1.1 1.1 4.3 4.3c.1.1.1.3 0 .4l-4.3 4.3 1.1 1.1 4.3-4.3c.7-.8.7-1.9 0-2.6zM4.2 11.8l4.3-4.3-1-1-4.3 4.3c-.7.7-.7 1.8 0 2.5l4.3 4.3 1.1-1.1-4.3-4.3c-.2-.1-.2-.3-.1-.4z"
   })
@@ -11546,7 +11546,7 @@ const code = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(exter
 const drawerLeft = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   width: "24",
   height: "24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -11565,7 +11565,7 @@ const drawerLeft = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)
 const drawerRight = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   width: "24",
   height: "24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -11582,7 +11582,7 @@ const drawerRight = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx
 
 
 const blockDefault = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M19 8h-1V6h-5v2h-2V6H6v2H5c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2zm.5 10c0 .3-.2.5-.5.5H5c-.3 0-.5-.2-.5-.5v-8c0-.3.2-.5.5-.5h14c.3 0 .5.2.5.5v8z"
@@ -11597,7 +11597,7 @@ const blockDefault = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.js
 
 
 const formatListBullets = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M11.1 15.8H20v-1.5h-8.9v1.5zm0-8.6v1.5H20V7.2h-8.9zM6 13c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
@@ -11612,7 +11612,7 @@ const formatListBullets = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObje
 
 
 const pencil = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "m19 7-3-3-8.5 8.5-1 4 4-1L19 7Zm-7 11.5H5V20h7v-1.5Z"
@@ -11635,7 +11635,7 @@ const pencil = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 
 
 const symbol = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M21.3 10.8l-5.6-5.6c-.7-.7-1.8-.7-2.5 0l-5.6 5.6c-.7.7-.7 1.8 0 2.5l5.6 5.6c.3.3.8.5 1.2.5s.9-.2 1.2-.5l5.6-5.6c.8-.7.8-1.9.1-2.5zm-1 1.4l-5.6 5.6c-.1.1-.3.1-.4 0l-5.6-5.6c-.1-.1-.1-.3 0-.4l5.6-5.6s.1-.1.2-.1.1 0 .2.1l5.6 5.6c.1.1.1.3 0 .4zm-16.6-.4L10 5.5l-1-1-6.3 6.3c-.7.7-.7 1.8 0 2.5L9 19.5l1.1-1.1-6.3-6.3c-.2 0-.2-.2-.1-.3z"
@@ -11650,7 +11650,7 @@ const symbol = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 
 
 const page = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M15.5 7.5h-7V9h7V7.5Zm-7 3.5h7v1.5h-7V11Zm7 3.5h-7V16h7v-1.5Z"
@@ -11667,7 +11667,7 @@ const page = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(exte
 
 
 const rotateRight = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M15.1 4.8l-3-2.5V4c-4.4 0-8 3.6-8 8 0 3.7 2.5 6.9 6 7.7.3.1.6.1 1 .2l.2-1.5c-.4 0-.7-.1-1.1-.2l-.1.2v-.2c-2.6-.8-4.5-3.3-4.5-6.2 0-3.6 2.9-6.5 6.5-6.5v1.8l3-2.5zM20 11c-.2-1.4-.7-2.7-1.6-3.8l-1.2.8c.7.9 1.1 2 1.3 3.1L20 11zm-1.5 1.8c-.1.5-.2 1.1-.4 1.6s-.5 1-.8 1.5l1.2.9c.4-.5.8-1.1 1-1.8s.5-1.3.5-2l-1.5-.2zm-5.6 5.6l.2 1.5c1.4-.2 2.7-.7 3.8-1.6l-.9-1.1c-.9.7-2 1.1-3.1 1.2z"
@@ -11682,7 +11682,7 @@ const rotateRight = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx
 
 
 const rotateLeft = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M12 4V2.2L9 4.8l3 2.5V5.5c3.6 0 6.5 2.9 6.5 6.5 0 2.9-1.9 5.3-4.5 6.2v.2l-.1-.2c-.4.1-.7.2-1.1.2l.2 1.5c.3 0 .6-.1 1-.2 3.5-.9 6-4 6-7.7 0-4.4-3.6-8-8-8zm-7.9 7l1.5.2c.1-1.2.5-2.3 1.2-3.2l-1.1-.9C4.8 8.2 4.3 9.6 4.1 11zm1.5 1.8l-1.5.2c.1.7.3 1.4.5 2 .3.7.6 1.3 1 1.8l1.2-.8c-.3-.5-.6-1-.8-1.5s-.4-1.1-.4-1.7zm1.5 5.5c1.1.9 2.4 1.4 3.8 1.6l.2-1.5c-1.1-.1-2.2-.5-3.1-1.2l-.9 1.1z"
@@ -11699,7 +11699,7 @@ const external_wp_commands_namespaceObject = window["wp"]["commands"];
 
 
 const starFilled = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M11.776 4.454a.25.25 0 01.448 0l2.069 4.192a.25.25 0 00.188.137l4.626.672a.25.25 0 01.139.426l-3.348 3.263a.25.25 0 00-.072.222l.79 4.607a.25.25 0 01-.362.263l-4.138-2.175a.25.25 0 00-.232 0l-4.138 2.175a.25.25 0 01-.363-.263l.79-4.607a.25.25 0 00-.071-.222L4.754 9.881a.25.25 0 01.139-.426l4.626-.672a.25.25 0 00.188-.137l2.069-4.192z"
@@ -11714,7 +11714,7 @@ const starFilled = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)
 
 
 const starEmpty = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
@@ -15590,7 +15590,7 @@ var fast_deep_equal_default = /*#__PURE__*/__webpack_require__.n(fast_deep_equal
 
 const navigation = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M12 4c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14.5c-3.6 0-6.5-2.9-6.5-6.5S8.4 5.5 12 5.5s6.5 2.9 6.5 6.5-2.9 6.5-6.5 6.5zM9 16l4.5-3L15 8.4l-4.5 3L9 16z"
   })
@@ -15605,7 +15605,7 @@ const navigation = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)
 
 const verse = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M17.8 2l-.9.3c-.1 0-3.6 1-5.2 2.1C10 5.5 9.3 6.5 8.9 7.1c-.6.9-1.7 4.7-1.7 6.3l-.9 2.3c-.2.4 0 .8.4 1 .1 0 .2.1.3.1.3 0 .6-.2.7-.5l.6-1.5c.3 0 .7-.1 1.2-.2.7-.1 1.4-.3 2.2-.5.8-.2 1.6-.5 2.4-.8.7-.3 1.4-.7 1.9-1.2s.8-1.2 1-1.9c.2-.7.3-1.6.4-2.4.1-.8.1-1.7.2-2.5 0-.8.1-1.5.2-2.1V2zm-1.9 5.6c-.1.8-.2 1.5-.3 2.1-.2.6-.4 1-.6 1.3-.3.3-.8.6-1.4.9-.7.3-1.4.5-2.2.8-.6.2-1.3.3-1.8.4L15 7.5c.3-.3.6-.7 1-1.1 0 .4 0 .8-.1 1.2zM6 20h8v-1.5H6V20z"
   })
@@ -16268,7 +16268,7 @@ class AutosaveMonitor extends external_wp_element_namespaceObject.Component {
 
 
 const chevronRightSmall = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M10.8622 8.04053L14.2805 12.0286L10.8622 16.0167L9.72327 15.0405L12.3049 12.0286L9.72327 9.01672L10.8622 8.04053Z"
@@ -16283,7 +16283,7 @@ const chevronRightSmall = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObje
 
 
 const chevronLeftSmall = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "m13.1 16-3.4-4 3.4-4 1.1 1-2.6 3 2.6 3-1.1 1z"
@@ -16613,7 +16613,7 @@ function EmptyOutlineIllustration() {
     height: "148",
     viewBox: "0 0 138 148",
     fill: "none",
-    xmlns: "https://www.w3.org/2000/svg",
+    xmlns: "http://www.w3.org/2000/svg",
     children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_components_namespaceObject.Rect, {
       width: "138",
       height: "148",
@@ -16995,7 +16995,7 @@ function EditorKeyboardShortcutsRegister() {
 
 
 const redo_redo = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M15.6 6.5l-1.1 1 2.9 3.3H8c-.9 0-1.7.3-2.3.9-1.4 1.5-1.4 4.2-1.4 5.6v.2h1.5v-.3c0-1.1 0-3.5 1-4.5.3-.3.7-.5 1.3-.5h9.2L14.5 15l1.1 1.1 4.6-4.6-4.6-5z"
@@ -17010,7 +17010,7 @@ const redo_redo = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(
 
 
 const undo_undo = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M18.3 11.7c-.6-.6-1.4-.9-2.3-.9H6.7l2.9-3.3-1.1-1-4.5 5L8.5 16l1-1-2.7-2.7H16c.5 0 .9.2 1.3.5 1 1 1 3.4 1 4.5v.3h1.5v-.2c0-1.5 0-4.3-1.5-5.7z"
@@ -18563,7 +18563,7 @@ function PageAttributesPanel() {
 
 const addTemplate = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
     clipRule: "evenodd",
@@ -22213,7 +22213,7 @@ function writeInterstitialMessage(targetDocument) {
   let markup = (0,external_wp_element_namespaceObject.renderToString)(/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)("div", {
     className: "editor-post-preview-button__interstitial-message",
     children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsxs)(external_wp_components_namespaceObject.SVG, {
-      xmlns: "https://www.w3.org/2000/svg",
+      xmlns: "http://www.w3.org/2000/svg",
       viewBox: "0 0 96 96",
       children: [/*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_components_namespaceObject.Path, {
         className: "outer",
@@ -22690,7 +22690,7 @@ class PostPublishButton extends external_wp_element_namespaceObject.Component {
 
 
 const wordpress = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "-2 -2 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M20 10c0-5.51-4.49-10-10-10C4.48 0 0 4.49 0 10c0 5.52 4.48 10 10 10 5.51 0 10-4.48 10-10zM7.78 15.37L4.37 6.22c.55-.02 1.17-.08 1.17-.08.5-.06.44-1.13-.06-1.11 0 0-1.45.11-2.37.11-.18 0-.37 0-.58-.01C4.12 2.69 6.87 1.11 10 1.11c2.33 0 4.45.87 6.05 2.34-.68-.11-1.65.39-1.65 1.58 0 .74.45 1.36.9 2.1.35.61.55 1.36.55 2.46 0 1.49-1.4 5-1.4 5l-3.03-8.37c.54-.02.82-.17.82-.17.5-.05.44-1.25-.06-1.22 0 0-1.44.12-2.38.12-.87 0-2.33-.12-2.33-.12-.5-.03-.56 1.2-.06 1.22l.92.08 1.26 3.41zM17.41 10c.24-.64.74-1.87.43-4.25.7 1.29 1.05 2.71 1.05 4.25 0 3.29-1.73 6.24-4.4 7.78.97-2.59 1.94-5.2 2.92-7.78zM6.1 18.09C3.12 16.65 1.11 13.53 1.11 10c0-1.3.23-2.48.72-3.59C3.25 10.3 4.67 14.2 6.1 18.09zm4.03-6.63l2.58 6.98c-.86.29-1.76.45-2.71.45-.79 0-1.57-.11-2.29-.33.81-2.38 1.62-4.74 2.42-7.1z"
@@ -23261,7 +23261,7 @@ const secondsInQuarter = secondsInMonth * 3;
  * Parse the given string in ISO 8601 format and return an instance of Date.
  *
  * Function accepts complete ISO 8601 formats as well as partial implementations.
- * ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
+ * ISO 8601: http://en.wikipedia.org/wiki/ISO_8601
  *
  * If the argument isn't a string, the function cannot parse the string or
  * the values are invalid, it returns Invalid Date.
@@ -25462,7 +25462,7 @@ class PostPublishPanel extends external_wp_element_namespaceObject.Component {
 
 
 const cloudUpload = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M17.3 10.1C17.3 7.60001 15.2 5.70001 12.5 5.70001C10.3 5.70001 8.4 7.10001 7.9 9.00001H7.7C5.7 9.00001 4 10.7 4 12.8C4 14.9 5.7 16.6 7.7 16.6H9.5V15.2H7.7C6.5 15.2 5.5 14.1 5.5 12.9C5.5 11.7 6.5 10.5 7.7 10.5H9L9.3 9.40001C9.7 8.10001 11 7.20001 12.5 7.20001C14.3 7.20001 15.8 8.50001 15.8 10.1V11.4L17.1 11.6C17.9 11.7 18.5 12.5 18.5 13.4C18.5 14.4 17.7 15.2 16.8 15.2H14.5V16.6H16.7C18.5 16.6 19.9 15.1 19.9 13.3C20 11.7 18.8 10.4 17.3 10.1Z M14.1245 14.2426L15.1852 13.182L12.0032 10L8.82007 13.1831L9.88072 14.2438L11.25 12.8745V18H12.75V12.8681L14.1245 14.2426Z"
@@ -25477,7 +25477,7 @@ const cloudUpload = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx
 
 
 const cloud = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M17.3 10.1c0-2.5-2.1-4.4-4.8-4.4-2.2 0-4.1 1.4-4.6 3.3h-.2C5.7 9 4 10.7 4 12.8c0 2.1 1.7 3.8 3.7 3.8h9c1.8 0 3.2-1.5 3.2-3.3.1-1.6-1.1-2.9-2.6-3.2zm-.5 5.1h-9c-1.2 0-2.2-1.1-2.2-2.3s1-2.4 2.2-2.4h1.3l.3-1.1c.4-1.3 1.7-2.2 3.2-2.2 1.8 0 3.3 1.3 3.3 2.9v1.3l1.3.2c.8.1 1.4.9 1.4 1.8-.1 1-.9 1.8-1.8 1.8z"
@@ -27420,7 +27420,7 @@ function PostVisibilityCheck({
 
 const info = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fillRule: "evenodd",
     clipRule: "evenodd",
@@ -28206,7 +28206,7 @@ BackButton.Slot = BackButtonSlot;
 
 const comment = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M18 4H6c-1.1 0-2 .9-2 2v12.9c0 .6.5 1.1 1.1 1.1.3 0 .5-.1.8-.3L8.5 17H18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm.5 11c0 .3-.2.5-.5.5H7.9l-2.4 2.4V6c0-.3.2-.5.5-.5h12c.3 0 .5.2.5.5v9z"
   })
@@ -28224,7 +28224,7 @@ const collabSidebarName = 'edit-post/collab-sidebar';
 
 
 const moreVertical = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M13 19h-2v-2h2v2zm0-6h-2v-2h2v2zm0-6h-2V5h2v2z"
@@ -29153,7 +29153,7 @@ function CollabSidebar() {
 
 
 const next = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M6.6 6L5.4 7l4.5 5-4.5 5 1.1 1 5.5-6-5.4-6zm6 0l-1.1 1 4.5 5-4.5 5 1.1 1 5.5-6-5.5-6z"
@@ -29168,7 +29168,7 @@ const next = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(exter
 
 
 const previous = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M11.6 7l-1.1-1L5 12l5.5 6 1.1-1L7 12l4.6-5zm6 0l-1.1-1-5.5 6 5.5 6 1.1-1-4.6-5 4.6-5z"
@@ -29251,7 +29251,7 @@ function CollapsibleBlockToolbar({
 
 
 const plus = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M11 12.5V17.5H12.5V12.5H17.5V11H12.5V6H11V11H6V12.5H11Z"
@@ -29860,7 +29860,7 @@ function PostViewLink() {
 
 
 const desktop = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M20.5 16h-.7V8c0-1.1-.9-2-2-2H6.2c-1.1 0-2 .9-2 2v8h-.7c-.8 0-1.5.7-1.5 1.5h20c0-.8-.7-1.5-1.5-1.5zM5.7 8c0-.3.2-.5.5-.5h11.6c.3 0 .5.2.5.5v7.6H5.7V8z"
@@ -29875,7 +29875,7 @@ const desktop = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ex
 
 
 const mobile = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M15 4H9c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm.5 14c0 .3-.2.5-.5.5H9c-.3 0-.5-.2-.5-.5V6c0-.3.2-.5.5-.5h6c.3 0 .5.2.5.5v12zm-4.5-.5h2V16h-2v1.5z"
@@ -29890,7 +29890,7 @@ const mobile = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(ext
 
 
 const tablet = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     d: "M17 4H7c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm.5 14c0 .3-.2.5-.5.5H7c-.3 0-.5-.2-.5-.5V6c0-.3.2-.5.5-.5h10c.3 0 .5.2.5.5v12zm-7.5-.5h4V16h-4v1.5z"
@@ -30089,7 +30089,7 @@ function PreviewDropdown({
 
 
 const square = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.SVG, {
-  xmlns: "https://www.w3.org/2000/svg",
+  xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   children: /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(external_wp_primitives_namespaceObject.Path, {
     fill: "none",

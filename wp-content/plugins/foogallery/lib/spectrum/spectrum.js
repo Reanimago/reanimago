@@ -1548,11 +1548,11 @@
     // --------------------
 
     // `rgbToHsl`, `rgbToHsv`, `hslToRgb`, `hsvToRgb` modified from:
-    // <https://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
+    // <http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
 
     // `rgbToRgb`
     // Handle bounds / percentage checking to conform to CSS color spec
-    // <https://www.w3.org/TR/css3-color/>
+    // <http://www.w3.org/TR/css3-color/>
     // *Assumes:* r, g, b in [0, 255] or [0, 1]
     // *Returns:* { r, g, b } in [0, 255]
     function rgbToRgb(r, g, b){
@@ -1900,7 +1900,7 @@
 
     // Readability Functions
     // ---------------------
-    // <https://www.w3.org/TR/AERT#color-contrast>
+    // <http://www.w3.org/TR/AERT#color-contrast>
 
     // `readability`
     // Analyze the 2 colors and returns an object with the following properties:
@@ -1926,7 +1926,7 @@
     };
 
     // `readable`
-    // https://www.w3.org/TR/AERT#color-contrast
+    // http://www.w3.org/TR/AERT#color-contrast
     // Ensure that foreground and background color combinations provide sufficient contrast.
     // *Example*
     //    tinycolor.isReadable("#000", "#111") => false
@@ -1967,7 +1967,7 @@
 
     // Big List of Colors
     // ------------------
-    // <https://www.w3.org/TR/css3-color/#svg-color>
+    // <http://www.w3.org/TR/css3-color/#svg-color>
     var names = tinycolor.names = {
         aliceblue: "f0f8ff",
         antiquewhite: "faebd7",
@@ -2181,7 +2181,7 @@
     }
 
     // Need to handle 1.0 as 100%, since once it is a number, there is no difference between it and 1
-    // <https://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
+    // <http://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
     function isOnePointZero(n) {
         return typeof n == "string" && n.indexOf('.') != -1 && parseFloat(n) === 1;
     }
@@ -2216,10 +2216,10 @@
 
     var matchers = (function() {
 
-        // <https://www.w3.org/TR/css3-values/#integers>
+        // <http://www.w3.org/TR/css3-values/#integers>
         var CSS_INTEGER = "[-\\+]?\\d+%?";
 
-        // <https://www.w3.org/TR/css3-values/#number-value>
+        // <http://www.w3.org/TR/css3-values/#number-value>
         var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
 
         // Allow positive/negative integer/number.  Don't capture the either/or, just the entire outcome.
